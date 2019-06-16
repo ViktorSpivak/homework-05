@@ -9,10 +9,9 @@ img {display:block; width: 100%;object-fit: cover;}
 
 .menu-box {max-width: 1110px; margin: 0 auto;}
 
-.month {display:inline-block; margin:0;  padding: 32px 0 32px; font-size: 32px; font-family: 'Roboto', sans-serif; font-weight: 300; text-transform: uppercase;}
-.month::first-letter {font-weight: 900; color:#1abc9c;}
+.logo {display:inline-block; background-image: url(images/logo.png);width:78px; margin:0;  padding: 38px 0 32px;background-repeat: no-repeat; background-position: center;}
 
-.main-menu {float: right;list-style: none; margin:0; padding-top: 38px; max-width: 1110px;}
+.main-menu {float: right;list-style: none; margin:0; padding-top: 26px;padding-left:o; max-width: 1110px;}
 .main-menu li {float: left;}
 .main-menu a {padding-right: 15px; padding-left: 15px;font-family: 'Open Sans', sans-serif;color: #000000; font-weight: 700; font-size: 14px; text-transform: uppercase; text-decoration: none;}
 .main-menu li a:hover {color:#1abc9c;}
@@ -42,7 +41,6 @@ img {display:block; width: 100%;object-fit: cover;}
 .topic {font-size: 48px; text-align: center; margin: 0; padding-top: 104px; font-family: 'Roboto', sans-serif; font-weight: 900; text-transform: uppercase; position: relative;}
 .topic::after {content: ''; position: absolute; border: none; height: 7px; width: 160px; bottom: -32px; left: 50%; transform: translatex(-50%); background-color: #4ec6ab;}
 
-
 .placing-item { display: block; font-size: 0; position: relative; width: 1170px; left: 50%; transform:translateX(-50%);padding: 0 30px 0;}
 .placing-item :first-child{margin-left: 0;}
 .placing-item :last-child {margin-right: 0;}
@@ -58,13 +56,13 @@ img {display:block; width: 100%;object-fit: cover;}
 .link-list {position: absolute; width: 166px;height: 106px;;padding: 0; opacity: 0; left:50%; top:45%;transform: translate(-50%,-50%);}
 
 .link-list li {display: inline-block;margin-left: 8px; width: 50px; height: 50px; border-style: solid;border-color: #fff; border-width: 1px; }
-.link-list a {display:inline-block; width: 50px; height: 50px; background-repeat: no-repeat;background-position: center;}
-.link-list li:last-of-type {display:inline-block; width: 166px;height: 50px;margin-left: 0; margin-top: 6px; background-color: #000000; }
+.link-list a:not(.link-list-icon4){display:inline-block; width: 50px; height: 50px; background-repeat: no-repeat;background-position: center;}
+.link-list li:last-of-type {width: 166px;height: 50px;margin-left: 0; margin-top: 6px; background-color: #000000; }
 
 .link-list-icon1 { background-image: url(images/icon-1.png);}
 .link-list-icon2 { background-image: url(images/icon-2.png);}
 .link-list-icon3 { background-image: url(images/icon-3.png);}
-.link-list-icon4 { background-image: url(images/icon-4.png);display: inline;padding-left: 60px; font-size: 14px; color: #fff;line-height: 50px; text-transform: uppercase;font-family: 'Open Sans', sans-serif; text-decoration: none; }
+.link-list-icon4 { background-image: url(images/icon-4.png);display: block;font-size: 14px; color: #fff;line-height: 50px; text-transform: uppercase;font-family: 'Open Sans', sans-serif; text-decoration: none; width: 166px;height: 50px;background-repeat: no-repeat;background-position-x: 15px; background-position-y: 10px; padding-left: 60px;}
 
 .link-list li:hover {background: #4ec6ab;}
 
@@ -74,5 +72,3 @@ img {display:block; width: 100%;object-fit: cover;}
 .produced-info {display:block; height: 88px; margin-top: 100px; font-size: 16px; color: #fff; line-height: 88px; text-align: center;}
 .text-color {color: #419989;}
 .back-layout-footer {position: absolute;display: block;background-color: #323232;height: 88px; width: 100%; left: 0;z-index:-1;}
-
-
